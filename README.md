@@ -80,7 +80,7 @@ AI calculations tend to be very expensive. *Especially* targeting code, since AI
 
 "Think" logic is decision making logic. Am I done doing what I was doing? What should I do next? What should I target now? This is the kind of logic that can be very expensive and should be done relatively infrequently (every 1-5 seconds vs every frame).
 
-To space out the "think" logic, what I typically use a simple timer so that it happens once every second or something. This prevents it from being run every frame, and also lets you design around the idea that an AI considers things only in certain time intervals. On top of that, I also offset this by a random number so that all AI don't "think" all at the same time. If they all do some expensive calculation all at once, the player will notice that frame took significantly longer than most frames.
+To space out the "think" logic, I typically use a simple timer so that it happens once a second or so. This prevents it from being run every frame, and also lets you design around the idea that an AI considers things only in certain time intervals. On top of that, I also offset this by a random number so that all AI don't "think" all at the same time. If they all do some expensive calculation all at once, the player will notice that frame took significantly longer than most frames.
 
 ![](Screenshots/Chase.gif)
 
