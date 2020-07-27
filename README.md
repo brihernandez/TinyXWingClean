@@ -102,9 +102,7 @@ Ever since learning more about custom shaders, I've admittedly become a bit of a
 
 ## Global Variables in Shader Graph
 
-Since I want to calculate my own lighting, and Shader Graph doesn't support custom lighting models the way the Built-Renderer used to, I need to pass in my own light direction to be used for lighting calculations. This means I can only have one light source (the sun) but for my purposes that's fine.
-
-I don't even remember how I found out how to do this, because it's not obvious at all, but super essential and powerful.
+Since I want to calculate my own lighting, and Shader Graph doesn't support custom lighting models the way the Built-Renderer used to, I need to pass in my own light direction to be used for lighting calculations. This means I can only have one light source (the sun) but for my purposes that's fine. I don't remember where I read how to do this, because it's not obvious at all, but it's essential and powerful.
 
 On the game's light, you'll see a script called `ShaderLighting`. All this does is pass the direction of the light into a shader-accessible global variable called `LightDirection`.
 
