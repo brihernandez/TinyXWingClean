@@ -73,7 +73,7 @@ The single most important function needed for AI to work is the ability for them
 
 ### Spread out Calculations!
 
-AI calculations tend to be very expensive. *Especially* targeting code, since AI often have a lot of considerations to make when deciding what to target, or what they even *can* target. A trick I very often use is to separate out "think" and "act" logic, then make it so that expensive functions are called "randomly" rather than all AI running the same calculations on the same frame.
+AI calculations tend to be very expensive. *Especially* targeting code, since AI often have a lot of considerations to make when deciding what to target, or what they even can target. A trick I often use is to separate out "think" and "act" logic, then make it so that the expensive "think" functions are called in offset intervals rather than all AI running the same calculations on the same frame.
 
 ### Act vs Think
 "Act" logic is the kind of logic that must run every frame. This is the moment to moment stuff such as manipulating the virtual joystick and throttle to fly a spaceship or plane. This should be as simple and straightforward as possible because it needs to happen all the time.
