@@ -1,0 +1,21 @@
+{
+    "TypeName": "TIE/LN",
+    "HullStrength": 50,
+    "IsCapital": false,
+    "Physics": {
+        "Mass": 100,
+        "Drag": 4,
+        "AngularDrag": 3
+    },
+    "Engine": {
+        "Thrust": 500,
+        "Accel": 0.5,
+        "Torque": 50
+    },
+    "Weapons": {
+        "Damage": 10,
+        "MuzzleVelocity": 300,
+        "FireDelay": 0.5,
+        "Color": 0
+    }
+}

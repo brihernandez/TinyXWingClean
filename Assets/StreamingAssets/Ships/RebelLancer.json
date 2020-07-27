@@ -1,0 +1,21 @@
+{
+    "TypeName": "Lancer",
+    "HullStrength": 6000,
+    "IsCapital": true,
+    "Physics": {
+        "Mass": 10000,
+        "Drag": 4,
+        "AngularDrag": 3
+    },
+    "Engine": {
+        "Thrust": 5000,
+        "Accel": 0.5,
+        "Torque": 100000
+    },
+    "Weapons": {
+        "Damage": 5,
+        "MuzzleVelocity": 300,
+        "FireDelay": 1,
+        "Color": 1
+    }
+}
